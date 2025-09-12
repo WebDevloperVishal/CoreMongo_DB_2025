@@ -14,14 +14,14 @@ MongoDB is designed to handle large volumes of data with high performance and fl
 
 ## **Difference Between SQL and MongoDB**
 
-| Feature                | SQL (Relational)                      | MongoDB (NoSQL)                           |
-|------------------------|---------------------------------------|-------------------------------------------|
+| Feature                 | SQL (Relational)                      | MongoDB (NoSQL)                           |
+|-------------------------|---------------------------------------|-------------------------------------------|
 | **Data Storage**        | Tables (Rows and Columns)             | Collections (Documents)                   |
-| **Schema**              | Fixed Schema                          | Dynamic Schema                           |
-| **Scaling**             | Vertical Scaling                      | Horizontal Scaling                       |
+| **Schema**              | Fixed Schema                          | Dynamic Schema                            |
+| **Scaling**             | Vertical Scaling                      | Horizontal Scaling                        |
 | **Data Integrity**      | Strong consistency and ACID properties | Eventual consistency                     |
 | **Queries**             | SQL Queries                           | JavaScript-based queries (BSON format)    |
-| **Transactions**        | Supported                             | Limited (Mature in recent versions)      |
+| **Transactions**        | Supported                             | Limited (Mature in recent versions)       |
 | **Relationships**       | Supports Foreign Keys & Joins         | No built-in joins (Uses embedded documents or references) |
 | **Data Type**           | Fixed (Int, Char, Date, etc.)         | Flexible (String, Number, Array, etc.)    |
 
