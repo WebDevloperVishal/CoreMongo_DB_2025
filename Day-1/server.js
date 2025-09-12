@@ -7,7 +7,6 @@
 
 // For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
 
-
 // myNewDatabase> db.createCollection("Courses")
 // { ok: 1 }
 // myNewDatabase> show collections
