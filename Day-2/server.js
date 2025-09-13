@@ -10,6 +10,10 @@ newProducts> db.food.find().limit(10)
 
 newProducts> db.food.find().limit(5).count()
 
+newProducts> db.food.find().skip(50).count()
+
+newProducts> db.food.find().skip(50)
+
 
 
 
