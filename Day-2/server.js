@@ -16,7 +16,15 @@ newProducts> db.food.find().skip(50)
 
 logical opertor
 
+And opertor
+newProducts> db.food.find({$and:[{type:"fruit"} , {height:{$gt:400}}]})
 
+
+or opertor
+newProducts> db.food.find({$or:[{type:"fruit"} , {height:{$gt:400}}]})
+
+not opertor
+newProducts> db.food.find({$nor:[{type:"fruit"} , {height:{$gt:400}}]})
 
 
 
